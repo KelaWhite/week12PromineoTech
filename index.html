@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Lib Generator</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="madlibs.css">
+</head>
+<body>
+    <div class="container-fluid col-sm-8 my-5 p-3" id="fullBg">
+        <div class="row">
+            <div class="my-4">
+                <h1 class="text-center" id="head">I Love Seattle Mad Libs</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="input-group mb-2 align-items-center">
+                            Enter your name:&nbsp&nbsp<input type="text" id="new-entry-author" class="form-control">&nbsp&nbsp
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" id="create-new-entry" type="button">Play</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div id="app">
+
+                </div>
+            </div>
+        </div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>   
+</body>
+</html>
